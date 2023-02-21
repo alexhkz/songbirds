@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import { ViteAliases } from "vite-aliases";
-import legacy from "@vitejs/plugin-legacy"
-import TemplateLoader from './plugins/vite-template-plugin'
+import legacy from "@vitejs/plugin-legacy";
+import TemplateLoader from './plugins/vite-template-plugin';
 
 export default defineConfig({
     build: {
